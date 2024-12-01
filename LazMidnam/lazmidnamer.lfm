@@ -1,15 +1,16 @@
 object Form1: TForm1
   Left = 240
-  Height = 240
+  Height = 348
   Top = 32
-  Width = 320
-  Caption = 'Form1'
-  ClientHeight = 240
-  ClientWidth = 320
+  Width = 743
+  Caption = 'LazMidnam'
+  ClientHeight = 348
+  ClientWidth = 743
+  Menu = MainMenu1
   object Button1: TButton
-    Left = 8
+    Left = 16
     Height = 65
-    Top = 136
+    Top = 232
     Width = 291
     Caption = 'Load and Test Midnam'
     TabOrder = 0
@@ -30,16 +31,71 @@ object Form1: TForm1
     Caption = 'Label2'
   end
   object Button2: TButton
-    Left = 42
+    Left = 320
     Height = 25
-    Top = 18
-    Width = 75
+    Top = 256
+    Width = 214
     Caption = 'Select and Open Midnam'
     TabOrder = 1
     OnClick = Button2Click
   end
+  object GroupBox1: TGroupBox
+    Left = 8
+    Height = 176
+    Top = 8
+    Width = 329
+    Caption = 'Midnam Info'
+    ClientHeight = 157
+    ClientWidth = 327
+    TabOrder = 2
+    OnClick = GroupBox1Click
+    object lbl_Author: TLabel
+      Left = 8
+      Height = 18
+      Top = 16
+      Width = 47
+      Caption = 'Author'
+    end
+    object edt_Author: TEdit
+      Left = 112
+      Height = 35
+      Top = 8
+      Width = 208
+      TabOrder = 0
+      TextHint = 'Author of Midnam File'
+    end
+    object Label3: TLabel
+      Left = 8
+      Height = 18
+      Top = 56
+      Width = 92
+      Caption = 'Manufacturer'
+    end
+    object edt_manufacturer: TEdit
+      Left = 112
+      Height = 35
+      Top = 48
+      Width = 208
+      TabOrder = 1
+    end
+  end
+  object TreeView1: TTreeView
+    Left = 382
+    Height = 218
+    Top = 8
+    Width = 337
+    TabOrder = 3
+  end
   object OpenDialog1: TOpenDialog
-    Left = 50
-    Top = 52
+    Title = 'Read MIDNAM file ...'
+    DefaultExt = '.midnam'
+    Filter = 'Midnam Files|*.midnam|XML Files|*.xml|Text Files|*.txt'
+    Options = [ofReadOnly, ofEnableSizing, ofViewDetail]
+    Left = 688
+    Top = 64
+  end
+  object MainMenu1: TMainMenu
+    Left = 696
+    Top = 8
   end
 end

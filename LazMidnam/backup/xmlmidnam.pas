@@ -1,4 +1,5 @@
 unit xmlMidnam;
+//@TODO Remove Later!
 
 
 {$mode ObjFPC}{$H+}
@@ -26,11 +27,13 @@ begin
     // Retrieve the "password" node
     model       := Doc.DocumentElement.FindNode('Author');
     // Write out value of the selected node
-    writeln.(model.NodeValue); // will be midnam author blank
+    writeln(model.NodeValue); // will be midnam author blank
     // The text of the node is actually a separate child node
     WriteLn(model.FirstChild.NodeValue); // correctly prints "abc"
     // alternatively
     WriteLn(model.TextContent);
+
+    TForm.Label2.Text := 'HELLO!';
   finally
     // finally, free the document
     Doc.Free;

@@ -1,4 +1,5 @@
 unit xmlMidnam;
+//@TODO Remove Later!
 
 
 {$mode ObjFPC}{$H+}
@@ -31,6 +32,8 @@ begin
     WriteLn(model.FirstChild.NodeValue); // correctly prints "abc"
     // alternatively
     WriteLn(model.TextContent);
+
+    //TForm.Label2.Text := 'HELLO!';
   finally
     // finally, free the document
     Doc.Free;

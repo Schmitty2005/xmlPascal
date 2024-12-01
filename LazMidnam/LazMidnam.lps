@@ -10,19 +10,20 @@
         <EditorIndex Value="3"/>
         <TopLine Value="7"/>
         <CursorPos X="21" Y="13"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="lazmidnamer.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="LazMidnamer"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="31"/>
-        <CursorPos X="38" Y="44"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="92"/>
+        <CursorPos X="3" Y="103"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -31,9 +32,9 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="xmlMidnam"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="7"/>
-        <CursorPos X="12" Y="29"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="26"/>
+        <CursorPos X="7" Y="36"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -44,102 +45,126 @@
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="23">
+    <JumpHistory HistoryIndex="29">
       <Position>
-        <Filename Value="xmlmidnam.pas"/>
-        <Caret Line="2"/>
-      </Position>
-      <Position>
-        <Filename Value="xmlmidnam.pas"/>
-        <Caret Line="17" Column="27" TopLine="7"/>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="81" TopLine="66"/>
       </Position>
       <Position>
         <Filename Value="lazmidnamer.pas"/>
-        <Caret Column="17"/>
+        <Caret Line="76" Column="19" TopLine="66"/>
       </Position>
       <Position>
         <Filename Value="lazmidnamer.pas"/>
-        <Caret Line="35" Column="20" TopLine="21"/>
+        <Caret Line="75" Column="3" TopLine="66"/>
       </Position>
       <Position>
         <Filename Value="lazmidnamer.pas"/>
-        <Caret Line="8" Column="77"/>
-      </Position>
-      <Position>
-        <Filename Value="xmlmidnam.pas"/>
-        <Caret Line="7" Column="26"/>
-      </Position>
-      <Position>
-        <Filename Value="xmlmidnam.pas"/>
-        <Caret Line="13"/>
-      </Position>
-      <Position>
-        <Filename Value="xmlmidnam.pas"/>
-        <Caret Line="27" TopLine="19"/>
-      </Position>
-      <Position>
-        <Filename Value="xmlmidnam.pas"/>
-        <Caret Line="29" TopLine="19"/>
-      </Position>
-      <Position>
-        <Filename Value="xmlmidnam.pas"/>
-        <Caret Line="25" TopLine="19"/>
-      </Position>
-      <Position>
-        <Filename Value="xmlmidnam.pas"/>
-        <Caret Line="33" Column="18" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="xmlmidnam.pas"/>
-        <Caret Line="18" Column="8" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="xmlmidnam.pas"/>
-        <Caret Line="31" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="xmlmidnam.pas"/>
-        <Caret Line="27" Column="56" TopLine="15"/>
-      </Position>
-      <Position>
-        <Filename Value="xmlmidnam.pas"/>
-        <Caret Line="29" TopLine="15"/>
-      </Position>
-      <Position>
-        <Filename Value="xmlmidnam.pas"/>
-        <Caret Line="27" TopLine="15"/>
-      </Position>
-      <Position>
-        <Filename Value="xmlmidnam.pas"/>
-        <Caret Line="29" TopLine="15"/>
-      </Position>
-      <Position>
-        <Filename Value="xmlmidnam.pas"/>
-        <Caret Line="31" TopLine="15"/>
+        <Caret Line="80" Column="27" TopLine="67"/>
       </Position>
       <Position>
         <Filename Value="lazmidnamer.pas"/>
-        <Caret Line="35" Column="3" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="xmlmidnam.pas"/>
-        <Caret Line="29" Column="5" TopLine="19"/>
+        <Caret Line="90" Column="39" TopLine="75"/>
       </Position>
       <Position>
         <Filename Value="lazmidnamer.pas"/>
-        <Caret Line="36" Column="3"/>
+        <Caret Line="87" TopLine="79"/>
       </Position>
       <Position>
         <Filename Value="lazmidnamer.pas"/>
-        <Caret Line="37" Column="3"/>
+        <Caret Line="88" TopLine="72"/>
       </Position>
       <Position>
         <Filename Value="lazmidnamer.pas"/>
-        <Caret Line="39" Column="3" TopLine="21"/>
+        <Caret Line="74" Column="9" TopLine="72"/>
       </Position>
       <Position>
         <Filename Value="lazmidnamer.pas"/>
-        <Caret Line="45" Column="25" TopLine="30"/>
+        <Caret Line="88" TopLine="77"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="89" Column="37" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="91" Column="37" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="84" TopLine="79"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="89" Column="16" TopLine="79"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="87" Column="26" TopLine="79"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="84" TopLine="79"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="89" TopLine="79"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="90" TopLine="79"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="92" TopLine="79"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="84" TopLine="79"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="89" TopLine="79"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="90" TopLine="84"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="96" Column="3" TopLine="83"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="98" Column="3" TopLine="85"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="101" TopLine="87"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="102" TopLine="88"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="94" Column="50" TopLine="83"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="28" Column="5" TopLine="64"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="29" Column="5" TopLine="65"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="30" Column="5" TopLine="66"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="102" Column="3" TopLine="91"/>
       </Position>
     </JumpHistory>
     <RunParams>
@@ -147,22 +172,4 @@
       <Modes ActiveMode=""/>
     </RunParams>
   </ProjectSession>
-  <Debugging>
-    <BreakPoints>
-      <Item>
-        <Kind Value="bpkSource"/>
-        <WatchScope Value="wpsLocal"/>
-        <WatchKind Value="wpkWrite"/>
-        <Source Value="xmlmidnam.pas"/>
-        <Line Value="27"/>
-      </Item>
-      <Item>
-        <Kind Value="bpkSource"/>
-        <WatchScope Value="wpsLocal"/>
-        <WatchKind Value="wpkWrite"/>
-        <Source Value="xmlmidnam.pas"/>
-        <Line Value="31"/>
-      </Item>
-    </BreakPoints>
-  </Debugging>
 </CONFIG>
