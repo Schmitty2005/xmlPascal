@@ -7,19 +7,39 @@ object Form1: TForm1
   ClientHeight = 240
   ClientWidth = 320
   object Button1: TButton
-    Left = 16
+    Left = 8
     Height = 65
-    Top = 8
+    Top = 136
     Width = 291
     Caption = 'Load and Test Midnam'
     TabOrder = 0
     OnClick = Button1Click
   end
   object Label1: TLabel
-    Left = 32
+    Left = 8
     Height = 18
-    Top = 128
+    Top = 216
+    Width = 57
+    Caption = 'Author : '
+  end
+  object Label2: TLabel
+    Left = 80
+    Height = 18
+    Top = 216
     Width = 44
-    Caption = 'Label1'
+    Caption = 'Label2'
+  end
+  object Button2: TButton
+    Left = 42
+    Height = 25
+    Top = 18
+    Width = 75
+    Caption = 'Select and Open Midnam'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 50
+    Top = 52
   end
 end

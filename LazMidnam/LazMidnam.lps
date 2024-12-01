@@ -7,7 +7,7 @@
       <Unit>
         <Filename Value="LazMidnam.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="3"/>
         <TopLine Value="7"/>
         <CursorPos X="21" Y="13"/>
         <UsageCount Value="20"/>
@@ -19,8 +19,9 @@
         <ComponentName Value="Form1"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="LazMidnamer"/>
-        <TopLine Value="21"/>
-        <CursorPos X="3" Y="35"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="31"/>
+        <CursorPos X="38" Y="44"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -29,15 +30,21 @@
         <Filename Value="xmlmidnam.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="xmlMidnam"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="19"/>
-        <CursorPos Y="29"/>
+        <TopLine Value="7"/>
+        <CursorPos X="12" Y="29"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="midnam/MIDI.midnam"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="7">
+    <JumpHistory HistoryIndex="23">
       <Position>
         <Filename Value="xmlmidnam.pas"/>
         <Caret Line="2"/>
@@ -70,6 +77,70 @@
         <Filename Value="xmlmidnam.pas"/>
         <Caret Line="27" TopLine="19"/>
       </Position>
+      <Position>
+        <Filename Value="xmlmidnam.pas"/>
+        <Caret Line="29" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="xmlmidnam.pas"/>
+        <Caret Line="25" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="xmlmidnam.pas"/>
+        <Caret Line="33" Column="18" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="xmlmidnam.pas"/>
+        <Caret Line="18" Column="8" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="xmlmidnam.pas"/>
+        <Caret Line="31" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="xmlmidnam.pas"/>
+        <Caret Line="27" Column="56" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="xmlmidnam.pas"/>
+        <Caret Line="29" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="xmlmidnam.pas"/>
+        <Caret Line="27" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="xmlmidnam.pas"/>
+        <Caret Line="29" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="xmlmidnam.pas"/>
+        <Caret Line="31" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="35" Column="3" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="xmlmidnam.pas"/>
+        <Caret Line="29" Column="5" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="36" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="37" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="39" Column="3" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="lazmidnamer.pas"/>
+        <Caret Line="45" Column="25" TopLine="30"/>
+      </Position>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
@@ -83,14 +154,14 @@
         <WatchScope Value="wpsLocal"/>
         <WatchKind Value="wpkWrite"/>
         <Source Value="xmlmidnam.pas"/>
-        <Line Value="25"/>
+        <Line Value="27"/>
       </Item>
       <Item>
         <Kind Value="bpkSource"/>
         <WatchScope Value="wpsLocal"/>
         <WatchKind Value="wpkWrite"/>
         <Source Value="xmlmidnam.pas"/>
-        <Line Value="27"/>
+        <Line Value="31"/>
       </Item>
     </BreakPoints>
   </Debugging>
