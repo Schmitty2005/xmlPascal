@@ -13,6 +13,9 @@
 //     The Unicode character '♭' (U+266D) is the flat sign.
 //         Unicode Character “♯” (U+266F)
 //    
+//  Validate XML Midnam : 
+//        xmllint --noout --dtdvalid test.dtd test.xml
+//
 //*************************************
 
 program xmlNotes;

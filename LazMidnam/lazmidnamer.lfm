@@ -1,0 +1,25 @@
+object Form1: TForm1
+  Left = 240
+  Height = 240
+  Top = 32
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  object Button1: TButton
+    Left = 16
+    Height = 65
+    Top = 8
+    Width = 291
+    Caption = 'Load and Test Midnam'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 18
+    Top = 128
+    Width = 44
+    Caption = 'Label1'
+  end
+end

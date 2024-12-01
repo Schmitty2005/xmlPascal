@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1704440408"/>
+  <Params Value="-MObjFPC -Scghi -Cg -O1 -gw3 -gl -l -vewnhibq -Fi/home/bill/src/xmlPascal/LazMidnam/lib/x86_64-linux -Fu/home/bill/src/xmlPascal/LazMidnam/ -Fu/home/bill/src/Lazarus/lcl/units/x86_64-linux/gtk2 -Fu/home/bill/src/Lazarus/lcl/units/x86_64-linux -Fu/home/bill/src/Lazarus/components/freetype/lib/x86_64-linux -Fu/home/bill/src/Lazarus/components/lazutils/lib/x86_64-linux -Fu/home/bill/src/Lazarus/packager/units/x86_64-linux -FU/home/bill/src/xmlPascal/LazMidnam/lib/x86_64-linux/ -FE/home/bill/src/xmlPascal/LazMidnam/ -o/home/bill/src/xmlPascal/LazMidnam/LazMidnam -dLCL -dLCLgtk2 LazMidnam.lpr"/>
+</CONFIG>
