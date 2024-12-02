@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, Menus,
-  ComCtrls, DOM, XMLRead;
+  ComCtrls,  laz2_DOM, laz2_XMLRead;
 
 type
 
@@ -87,7 +87,10 @@ begin
   if OpenDialog1.Execute then
   begin
     if fileExists(OpenDialog1.Filename) then
-     ReadXMLFile(Doc, 'midnam/MIDI.midnam');//OpenDialog1.Filename);
+    begin
+      //ShowMessage(OpenDialog1.Filename);
+     ReadXMLFile(Doc, OpenDialog1.Filename);
+    end;
   end
 else
   ShowMessage('No file selected');
@@ -95,6 +98,7 @@ else
   author := Doc.DocumentElement.FindNode('Author');
   Label2.Caption := author.FirstChild.NodeValue;
   edt_Author.Text := author.FirstChild.NodeValue;
+  Doc.free;
 
 end;
 

@@ -21,8 +21,8 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="LazMidnamer"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="92"/>
-        <CursorPos X="3" Y="103"/>
+        <TopLine Value="86"/>
+        <CursorPos X="9" Y="91"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -45,7 +45,7 @@
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
+    <JumpHistory HistoryIndex="26">
       <Position>
         <Filename Value="lazmidnamer.pas"/>
         <Caret Line="81" TopLine="66"/>
@@ -149,18 +149,6 @@
       <Position>
         <Filename Value="lazmidnamer.pas"/>
         <Caret Line="94" Column="50" TopLine="83"/>
-      </Position>
-      <Position>
-        <Filename Value="lazmidnamer.pas"/>
-        <Caret Line="28" Column="5" TopLine="64"/>
-      </Position>
-      <Position>
-        <Filename Value="lazmidnamer.pas"/>
-        <Caret Line="29" Column="5" TopLine="65"/>
-      </Position>
-      <Position>
-        <Filename Value="lazmidnamer.pas"/>
-        <Caret Line="30" Column="5" TopLine="66"/>
       </Position>
       <Position>
         <Filename Value="lazmidnamer.pas"/>
