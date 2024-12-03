@@ -1,41 +1,40 @@
 object Form1: TForm1
   Left = 240
-  Height = 348
+  Height = 461
   Top = 32
-  Width = 743
+  Width = 874
   Caption = 'LazMidnam'
-  ClientHeight = 348
-  ClientWidth = 743
+  ClientHeight = 461
+  ClientWidth = 874
   Menu = MainMenu1
-  LCLVersion = '4.99.0.0'
   object Button1: TButton
-    Left = 16
-    Height = 65
-    Top = 232
-    Width = 291
+    Left = 8
+    Height = 25
+    Top = 432
+    Width = 192
     Caption = 'Load and Test Midnam'
     TabOrder = 0
     OnClick = Button1Click
   end
   object Label1: TLabel
-    Left = 8
+    Left = 392
     Height = 18
-    Top = 216
+    Top = 432
     Width = 57
     Caption = 'Author : '
   end
   object Label2: TLabel
-    Left = 80
+    Left = 464
     Height = 18
-    Top = 216
+    Top = 432
     Width = 44
     Caption = 'Label2'
   end
   object Button2: TButton
-    Left = 320
-    Height = 25
-    Top = 256
-    Width = 214
+    Left = 8
+    Height = 81
+    Top = 343
+    Width = 352
     Caption = 'Select and Open Midnam'
     TabOrder = 1
     OnClick = Button2Click
@@ -46,7 +45,7 @@ object Form1: TForm1
     Top = 8
     Width = 329
     Caption = 'Midnam Info'
-    ClientHeight = 157
+    ClientHeight = 174
     ClientWidth = 327
     TabOrder = 2
     OnClick = GroupBox1Click
@@ -82,9 +81,9 @@ object Form1: TForm1
   end
   object TreeView1: TTreeView
     Left = 382
-    Height = 218
+    Height = 416
     Top = 8
-    Width = 337
+    Width = 474
     TabOrder = 3
   end
   object OpenDialog1: TOpenDialog
@@ -98,5 +97,22 @@ object Form1: TForm1
   object MainMenu1: TMainMenu
     Left = 696
     Top = 8
+    object MenuItem1: TMenuItem
+      Caption = 'MenuItem1'
+      OnClick = MenuItem1Click
+      object MenuItem3: TMenuItem
+        Caption = 'MenuItem3'
+      end
+      object MenuItem5: TMenuItem
+        Caption = 'MenuItem5'
+      end
+      object MenuItem6: TMenuItem
+        Caption = 'MenuItem6'
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'MenuItem2'
+      OnClick = MenuItem2Click
+    end
   end
 end
